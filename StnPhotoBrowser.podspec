@@ -31,12 +31,5 @@ StnPhotoBrowser d
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'StnPhotoBrowser/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'StnPhotoBrowser' => ['StnPhotoBrowser/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
