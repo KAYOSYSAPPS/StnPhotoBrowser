@@ -9,11 +9,30 @@
 /* Begin PBXBuildFile section */
 		226729876126150551EE44F5478B8A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		237750285A70AF99AB87524BF9675A0E /* Pods-StnPhotoBrowser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C43E1D352B83477D7A25AA5DC278749 /* Pods-StnPhotoBrowser_Tests-dummy.m */; };
-		54B5AB211232D8C9863C380CEF537949 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF97C4B3267B9D0CDC21E93B7A9F15D4 /* ReplaceMe.swift */; };
 		7A77052FC9270780E2458F9C5495B0A3 /* StnPhotoBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CCB367DEEFE29D931CD6B8F91C6D7DC /* StnPhotoBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6D2798669342A0F3829856851D03CAC /* Pods-StnPhotoBrowser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36BA3BE095B544BF45640DA68591B4A7 /* Pods-StnPhotoBrowser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFD4485646E9802E2B2D714A004EC351 /* StnPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CB9CCA982EFC585211C633C93F6883 /* StnPhotoBrowser-dummy.m */; };
 		E3B256845100682B09E2C7071070FD38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EF9BD04D20343BB2004EC8C0 /* UIImage+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD03820343BB2004EC8C0 /* UIImage+Rotation.swift */; };
+		EF9BD04E20343BB2004EC8C0 /* UIView+Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD03920343BB2004EC8C0 /* UIView+Radius.swift */; };
+		EF9BD04F20343BB2004EC8C0 /* StnAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD03A20343BB2004EC8C0 /* StnAnimator.swift */; };
+		EF9BD05020343BB2004EC8C0 /* StnButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD03B20343BB2004EC8C0 /* StnButtons.swift */; };
+		EF9BD05120343BB2004EC8C0 /* StnCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD03C20343BB2004EC8C0 /* StnCache.swift */; };
+		EF9BD05220343BB2004EC8C0 /* StnCacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD03D20343BB2004EC8C0 /* StnCacheable.swift */; };
+		EF9BD05320343BB2004EC8C0 /* StnCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD03E20343BB2004EC8C0 /* StnCaptionView.swift */; };
+		EF9BD05420343BB2004EC8C0 /* StnDetectingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD03F20343BB2004EC8C0 /* StnDetectingImageView.swift */; };
+		EF9BD05520343BB2004EC8C0 /* StnDetectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD04020343BB2004EC8C0 /* StnDetectingView.swift */; };
+		EF9BD05620343BB2004EC8C0 /* StnIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD04120343BB2004EC8C0 /* StnIndicatorView.swift */; };
+		EF9BD05720343BB2004EC8C0 /* StnLocalPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD04220343BB2004EC8C0 /* StnLocalPhoto.swift */; };
+		EF9BD05820343BB2004EC8C0 /* StnMesurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD04320343BB2004EC8C0 /* StnMesurement.swift */; };
+		EF9BD05920343BB2004EC8C0 /* StnPagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD04420343BB2004EC8C0 /* StnPagingScrollView.swift */; };
+		EF9BD05A20343BB2004EC8C0 /* StnPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD04520343BB2004EC8C0 /* StnPhoto.swift */; };
+		EF9BD05B20343BB2004EC8C0 /* StnPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9BD04720343BB2004EC8C0 /* StnPhotoBrowser.h */; };
+		EF9BD05C20343BB2004EC8C0 /* StnPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD04820343BB2004EC8C0 /* StnPhotoBrowser.swift */; };
+		EF9BD05D20343BB2004EC8C0 /* StnPhotoBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD04920343BB2004EC8C0 /* StnPhotoBrowserDelegate.swift */; };
+		EF9BD05E20343BB2004EC8C0 /* StnPhotoBrowserOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD04A20343BB2004EC8C0 /* StnPhotoBrowserOptions.swift */; };
+		EF9BD05F20343BB2004EC8C0 /* StnToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD04B20343BB2004EC8C0 /* StnToolbar.swift */; };
+		EF9BD06020343BB2004EC8C0 /* StnZoomingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD04C20343BB2004EC8C0 /* StnZoomingScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,24 +49,44 @@
 		09B3A5ED3EF61CA37A8325DF6458170C /* Pods-StnPhotoBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StnPhotoBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		15440931E3494ABA30529BE62E1C597D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19B171910BCD7A5C731278036AC20471 /* Pods-StnPhotoBrowser_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StnPhotoBrowser_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		20E537FC5FEC4EC53798E1376071CA5C /* Pods-StnPhotoBrowser_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StnPhotoBrowser_Tests.modulemap"; sourceTree = "<group>"; };
+		20E537FC5FEC4EC53798E1376071CA5C /* Pods-StnPhotoBrowser_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-StnPhotoBrowser_Tests.modulemap"; sourceTree = "<group>"; };
 		36BA3BE095B544BF45640DA68591B4A7 /* Pods-StnPhotoBrowser_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StnPhotoBrowser_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3AE990B529D91970775E5C4A3C498A8D /* Pods_StnPhotoBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StnPhotoBrowser_Tests.framework; path = "Pods-StnPhotoBrowser_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE990B529D91970775E5C4A3C498A8D /* Pods_StnPhotoBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StnPhotoBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C43E1D352B83477D7A25AA5DC278749 /* Pods-StnPhotoBrowser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StnPhotoBrowser_Tests-dummy.m"; sourceTree = "<group>"; };
 		4E997050A2898110252D5F74FBE76723 /* StnPhotoBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StnPhotoBrowser-prefix.pch"; sourceTree = "<group>"; };
 		5CCB367DEEFE29D931CD6B8F91C6D7DC /* StnPhotoBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StnPhotoBrowser-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		87324824475C944018E2EAD52856010F /* Pods-StnPhotoBrowser_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StnPhotoBrowser_Tests-resources.sh"; sourceTree = "<group>"; };
-		882DE4D31048F0C41EE45C1EBF779946 /* StnPhotoBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = StnPhotoBrowser.modulemap; sourceTree = "<group>"; };
+		882DE4D31048F0C41EE45C1EBF779946 /* StnPhotoBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = StnPhotoBrowser.modulemap; sourceTree = "<group>"; };
 		8FB426517A3F8252962F67B070C80FE6 /* StnPhotoBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StnPhotoBrowser.xcconfig; sourceTree = "<group>"; };
 		92CB9CCA982EFC585211C633C93F6883 /* StnPhotoBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StnPhotoBrowser-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A53FF5C6F5813F9E8E89DA5B9DE7A918 /* Pods-StnPhotoBrowser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StnPhotoBrowser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BFE3608CF3C945B0F418445A2E760F35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECA8F74B8E791836B36D872D0A408120 /* Pods-StnPhotoBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StnPhotoBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EF97C4B3267B9D0CDC21E93B7A9F15D4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		EF9BD03820343BB2004EC8C0 /* UIImage+Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Rotation.swift"; sourceTree = "<group>"; };
+		EF9BD03920343BB2004EC8C0 /* UIView+Radius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Radius.swift"; sourceTree = "<group>"; };
+		EF9BD03A20343BB2004EC8C0 /* StnAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnAnimator.swift; sourceTree = "<group>"; };
+		EF9BD03B20343BB2004EC8C0 /* StnButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnButtons.swift; sourceTree = "<group>"; };
+		EF9BD03C20343BB2004EC8C0 /* StnCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnCache.swift; sourceTree = "<group>"; };
+		EF9BD03D20343BB2004EC8C0 /* StnCacheable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnCacheable.swift; sourceTree = "<group>"; };
+		EF9BD03E20343BB2004EC8C0 /* StnCaptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnCaptionView.swift; sourceTree = "<group>"; };
+		EF9BD03F20343BB2004EC8C0 /* StnDetectingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnDetectingImageView.swift; sourceTree = "<group>"; };
+		EF9BD04020343BB2004EC8C0 /* StnDetectingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnDetectingView.swift; sourceTree = "<group>"; };
+		EF9BD04120343BB2004EC8C0 /* StnIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnIndicatorView.swift; sourceTree = "<group>"; };
+		EF9BD04220343BB2004EC8C0 /* StnLocalPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnLocalPhoto.swift; sourceTree = "<group>"; };
+		EF9BD04320343BB2004EC8C0 /* StnMesurement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnMesurement.swift; sourceTree = "<group>"; };
+		EF9BD04420343BB2004EC8C0 /* StnPagingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnPagingScrollView.swift; sourceTree = "<group>"; };
+		EF9BD04520343BB2004EC8C0 /* StnPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnPhoto.swift; sourceTree = "<group>"; };
+		EF9BD04620343BB2004EC8C0 /* StnPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StnPhotoBrowser.bundle; sourceTree = "<group>"; };
+		EF9BD04720343BB2004EC8C0 /* StnPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StnPhotoBrowser.h; sourceTree = "<group>"; };
+		EF9BD04820343BB2004EC8C0 /* StnPhotoBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnPhotoBrowser.swift; sourceTree = "<group>"; };
+		EF9BD04920343BB2004EC8C0 /* StnPhotoBrowserDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnPhotoBrowserDelegate.swift; sourceTree = "<group>"; };
+		EF9BD04A20343BB2004EC8C0 /* StnPhotoBrowserOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnPhotoBrowserOptions.swift; sourceTree = "<group>"; };
+		EF9BD04B20343BB2004EC8C0 /* StnToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnToolbar.swift; sourceTree = "<group>"; };
+		EF9BD04C20343BB2004EC8C0 /* StnZoomingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnZoomingScrollView.swift; sourceTree = "<group>"; };
 		F957E153E65E8B860A2A8F9A11555C0C /* Pods-StnPhotoBrowser_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StnPhotoBrowser_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FF8DAA716DC306A63BC64C81DABC337F /* StnPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StnPhotoBrowser.framework; path = StnPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8DAA716DC306A63BC64C81DABC337F /* StnPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StnPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +140,6 @@
 			children = (
 				D712C0F9AE73260A4273650E58B4EFAA /* Classes */,
 			);
-			name = StnPhotoBrowser;
 			path = StnPhotoBrowser;
 			sourceTree = "<group>";
 		};
@@ -176,10 +214,37 @@
 		D712C0F9AE73260A4273650E58B4EFAA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EF97C4B3267B9D0CDC21E93B7A9F15D4 /* ReplaceMe.swift */,
+				EF9BD03720343BB2004EC8C0 /* extensions */,
+				EF9BD03A20343BB2004EC8C0 /* StnAnimator.swift */,
+				EF9BD03B20343BB2004EC8C0 /* StnButtons.swift */,
+				EF9BD03C20343BB2004EC8C0 /* StnCache.swift */,
+				EF9BD03D20343BB2004EC8C0 /* StnCacheable.swift */,
+				EF9BD03E20343BB2004EC8C0 /* StnCaptionView.swift */,
+				EF9BD03F20343BB2004EC8C0 /* StnDetectingImageView.swift */,
+				EF9BD04020343BB2004EC8C0 /* StnDetectingView.swift */,
+				EF9BD04120343BB2004EC8C0 /* StnIndicatorView.swift */,
+				EF9BD04220343BB2004EC8C0 /* StnLocalPhoto.swift */,
+				EF9BD04320343BB2004EC8C0 /* StnMesurement.swift */,
+				EF9BD04420343BB2004EC8C0 /* StnPagingScrollView.swift */,
+				EF9BD04520343BB2004EC8C0 /* StnPhoto.swift */,
+				EF9BD04620343BB2004EC8C0 /* StnPhotoBrowser.bundle */,
+				EF9BD04720343BB2004EC8C0 /* StnPhotoBrowser.h */,
+				EF9BD04820343BB2004EC8C0 /* StnPhotoBrowser.swift */,
+				EF9BD04920343BB2004EC8C0 /* StnPhotoBrowserDelegate.swift */,
+				EF9BD04A20343BB2004EC8C0 /* StnPhotoBrowserOptions.swift */,
+				EF9BD04B20343BB2004EC8C0 /* StnToolbar.swift */,
+				EF9BD04C20343BB2004EC8C0 /* StnZoomingScrollView.swift */,
 			);
-			name = Classes;
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		EF9BD03720343BB2004EC8C0 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF9BD03820343BB2004EC8C0 /* UIImage+Rotation.swift */,
+				EF9BD03920343BB2004EC8C0 /* UIView+Radius.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +262,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9BD05B20343BB2004EC8C0 /* StnPhotoBrowser.h in Headers */,
 				B6D2798669342A0F3829856851D03CAC /* Pods-StnPhotoBrowser_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +313,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					FF8FE8D969B8045D10E6FB8133886427 = {
+						LastSwiftMigration = 0820;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -271,7 +342,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9BD05D20343BB2004EC8C0 /* StnPhotoBrowserDelegate.swift in Sources */,
+				EF9BD05A20343BB2004EC8C0 /* StnPhoto.swift in Sources */,
+				EF9BD05720343BB2004EC8C0 /* StnLocalPhoto.swift in Sources */,
+				EF9BD05620343BB2004EC8C0 /* StnIndicatorView.swift in Sources */,
+				EF9BD05520343BB2004EC8C0 /* StnDetectingView.swift in Sources */,
+				EF9BD04F20343BB2004EC8C0 /* StnAnimator.swift in Sources */,
+				EF9BD05020343BB2004EC8C0 /* StnButtons.swift in Sources */,
+				EF9BD06020343BB2004EC8C0 /* StnZoomingScrollView.swift in Sources */,
+				EF9BD05120343BB2004EC8C0 /* StnCache.swift in Sources */,
+				EF9BD04E20343BB2004EC8C0 /* UIView+Radius.swift in Sources */,
+				EF9BD05420343BB2004EC8C0 /* StnDetectingImageView.swift in Sources */,
 				237750285A70AF99AB87524BF9675A0E /* Pods-StnPhotoBrowser_Tests-dummy.m in Sources */,
+				EF9BD05820343BB2004EC8C0 /* StnMesurement.swift in Sources */,
+				EF9BD05C20343BB2004EC8C0 /* StnPhotoBrowser.swift in Sources */,
+				EF9BD05320343BB2004EC8C0 /* StnCaptionView.swift in Sources */,
+				EF9BD04D20343BB2004EC8C0 /* UIImage+Rotation.swift in Sources */,
+				EF9BD05220343BB2004EC8C0 /* StnCacheable.swift in Sources */,
+				EF9BD05E20343BB2004EC8C0 /* StnPhotoBrowserOptions.swift in Sources */,
+				EF9BD05920343BB2004EC8C0 /* StnPagingScrollView.swift in Sources */,
+				EF9BD05F20343BB2004EC8C0 /* StnToolbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +369,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54B5AB211232D8C9863C380CEF537949 /* ReplaceMe.swift in Sources */,
 				BFD4485646E9802E2B2D714A004EC351 /* StnPhotoBrowser-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 09B3A5ED3EF61CA37A8325DF6458170C /* Pods-StnPhotoBrowser_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -383,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECA8F74B8E791836B36D872D0A408120 /* Pods-StnPhotoBrowser_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
