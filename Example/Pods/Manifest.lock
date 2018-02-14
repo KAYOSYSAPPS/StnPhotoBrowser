@@ -1,0 +1,16 @@
+PODS:
+  - StnPhotoBrowser (0.1.0)
+
+DEPENDENCIES:
+  - StnPhotoBrowser (from `../`)
+
+EXTERNAL SOURCES:
+  StnPhotoBrowser:
+    :path: ../
+
+SPEC CHECKSUMS:
+  StnPhotoBrowser: bde65d9ffac38bfb85d0e3f9e4e513da5ecd9c46
+
+PODFILE CHECKSUM: a6dc0354d7994af67ee226901eef8a610db746e8
+
+COCOAPODS: 1.2.1

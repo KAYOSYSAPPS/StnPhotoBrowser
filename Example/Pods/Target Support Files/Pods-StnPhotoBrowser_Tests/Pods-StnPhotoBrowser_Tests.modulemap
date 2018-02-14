@@ -1,0 +1,6 @@
+framework module Pods_StnPhotoBrowser_Tests {
+  umbrella header "Pods-StnPhotoBrowser_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
