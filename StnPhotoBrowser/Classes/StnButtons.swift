@@ -31,10 +31,12 @@ class StnButton: UIButton {
 //        clipsToBounds = true
         translatesAutoresizingMaskIntoConstraints = true
         autoresizingMask = [.flexibleBottomMargin, .flexibleLeftMargin, .flexibleRightMargin, .flexibleTopMargin]
-        
-        let image = UIImage(named: "StnPhotoBrowser.bundle/images/\(imageName)",
-                            in: bundle, compatibleWith: nil) ?? UIImage()
-        setImage(image, for: UIControlState())
+//        let image = UIImage(named: imageName,
+//                            in: bundle, compatibleWith: nil) ?? UIImage()
+        let image = UIImage(named: imageName)
+      //  setImage(image, for: UIControlState())
+        titleLabel?.font = UIFont(name: "FontAwesome", size: 24)
+        setTitle("", for: UIControlState())
     }
   
     func updateFrame() { }
