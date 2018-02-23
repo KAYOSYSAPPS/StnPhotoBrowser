@@ -33,7 +33,7 @@ class StnButton: UIButton {
         autoresizingMask = [.flexibleBottomMargin, .flexibleLeftMargin, .flexibleRightMargin, .flexibleTopMargin]
         //        let image = UIImage(named: imageName,
         //                            in: bundle, compatibleWith: nil) ?? UIImage()
-        let image = UIImage(named: imageName)
+        //let image = UIImage(named: imageName)
         //  setImage(image, for: UIControlState())
         titleLabel?.font = UIFont(name: "FontAwesome", size: 24)
         setTitle("", for: UIControlState())
