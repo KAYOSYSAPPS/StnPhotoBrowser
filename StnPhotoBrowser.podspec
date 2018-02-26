@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'StnPhotoBrowser'
   s.version          = '0.2.0'
-  s.summary          = 'StnPhotoBrowser.'
+  s.summary          = 'StnPhotoBrowser rt.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-StnPhotoBrowser d
+StnPhotoBrowser dssd cgdgbcfsr
                        DESC
 
   s.homepage         = 'https://github.com/KAYOSYSAPPS/StnPhotoBrowser'
