@@ -13,8 +13,8 @@
 		B6D2798669342A0F3829856851D03CAC /* Pods-StnPhotoBrowser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36BA3BE095B544BF45640DA68591B4A7 /* Pods-StnPhotoBrowser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFD4485646E9802E2B2D714A004EC351 /* StnPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CB9CCA982EFC585211C633C93F6883 /* StnPhotoBrowser-dummy.m */; };
 		E3B256845100682B09E2C7071070FD38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EF07FAE520453A6F008088AC /* UIView+Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF07FAE420453A6F008088AC /* UIView+Radius.swift */; };
-		EF07FAE720453A75008088AC /* UIImage+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF07FAE620453A75008088AC /* UIImage+Rotation.swift */; };
+		EF07FAF9204565E7008088AC /* UIImage+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF07FAF7204565E7008088AC /* UIImage+Rotation.swift */; };
+		EF07FAFA204565E7008088AC /* UIView+Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF07FAF8204565E7008088AC /* UIView+Radius.swift */; };
 		EF9BD04F20343BB2004EC8C0 /* StnAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD03A20343BB2004EC8C0 /* StnAnimator.swift */; };
 		EF9BD05020343BB2004EC8C0 /* StnButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD03B20343BB2004EC8C0 /* StnButtons.swift */; };
 		EF9BD05120343BB2004EC8C0 /* StnCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD03C20343BB2004EC8C0 /* StnCache.swift */; };
@@ -64,8 +64,8 @@
 		A53FF5C6F5813F9E8E89DA5B9DE7A918 /* Pods-StnPhotoBrowser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StnPhotoBrowser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BFE3608CF3C945B0F418445A2E760F35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECA8F74B8E791836B36D872D0A408120 /* Pods-StnPhotoBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StnPhotoBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EF07FAE420453A6F008088AC /* UIView+Radius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Radius.swift"; sourceTree = "<group>"; };
-		EF07FAE620453A75008088AC /* UIImage+Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Rotation.swift"; sourceTree = "<group>"; };
+		EF07FAF7204565E7008088AC /* UIImage+Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Rotation.swift"; sourceTree = "<group>"; };
+		EF07FAF8204565E7008088AC /* UIView+Radius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Radius.swift"; sourceTree = "<group>"; };
 		EF9BD03A20343BB2004EC8C0 /* StnAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnAnimator.swift; sourceTree = "<group>"; };
 		EF9BD03B20343BB2004EC8C0 /* StnButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnButtons.swift; sourceTree = "<group>"; };
 		EF9BD03C20343BB2004EC8C0 /* StnCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StnCache.swift; sourceTree = "<group>"; };
@@ -241,8 +241,8 @@
 		EF9BD03720343BB2004EC8C0 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
-				EF07FAE420453A6F008088AC /* UIView+Radius.swift */,
-				EF07FAE620453A75008088AC /* UIImage+Rotation.swift */,
+				EF07FAF7204565E7008088AC /* UIImage+Rotation.swift */,
+				EF07FAF8204565E7008088AC /* UIView+Radius.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -352,13 +352,13 @@
 				EF9BD06020343BB2004EC8C0 /* StnZoomingScrollView.swift in Sources */,
 				EF9BD05120343BB2004EC8C0 /* StnCache.swift in Sources */,
 				EF9BD05420343BB2004EC8C0 /* StnDetectingImageView.swift in Sources */,
+				EF07FAF9204565E7008088AC /* UIImage+Rotation.swift in Sources */,
 				237750285A70AF99AB87524BF9675A0E /* Pods-StnPhotoBrowser_Tests-dummy.m in Sources */,
 				EF9BD05820343BB2004EC8C0 /* StnMesurement.swift in Sources */,
 				EF9BD05C20343BB2004EC8C0 /* StnPhotoBrowser.swift in Sources */,
-				EF07FAE720453A75008088AC /* UIImage+Rotation.swift in Sources */,
+				EF07FAFA204565E7008088AC /* UIView+Radius.swift in Sources */,
 				EF9BD05320343BB2004EC8C0 /* StnCaptionView.swift in Sources */,
 				EF9BD05220343BB2004EC8C0 /* StnCacheable.swift in Sources */,
-				EF07FAE520453A6F008088AC /* UIView+Radius.swift in Sources */,
 				EF9BD05E20343BB2004EC8C0 /* StnPhotoBrowserOptions.swift in Sources */,
 				EF9BD05920343BB2004EC8C0 /* StnPagingScrollView.swift in Sources */,
 				EF9BD05F20343BB2004EC8C0 /* StnToolbar.swift in Sources */,
